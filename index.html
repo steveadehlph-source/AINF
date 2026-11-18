@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safeway Westview sale items | Course exercise</title>
+<style>
+body { font: 1rem/1.5 system-ui, sans-serif; color: #182826; margin: 2rem auto; padding: 0 1rem; max-width: 90rem; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: .5rem .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid #cbd8d4; }
+th { background: #204d44; color: white; }
+tbody tr:nth-child(even) { background: #f0f6f3; }
+td:nth-child(3), td:nth-child(4) { text-align: right; }
+</style>
+</head>
+<body>
+<main>
+<h1>Safeway Westview sale items</h1>
+<p>Course dataset with 778 sale-item records scraped from a public website. Prices are in Canadian dollars. Use this snapshot for the course exercise. Check Safeway for current prices and promotions.</p>
+<div class="table-wrap" role="region" aria-label="Sale items" tabindex="0">
+<table aria-label="Safeway Westview sale items">
+<thead><tr><th scope="col">Category</th><th scope="col">Item</th><th scope="col">Sale price (CAD)</th><th scope="col">Regular price (CAD)</th><th scope="col">Price basis</th><th scope="col">Pack size</th><th scope="col">Unit price</th><th scope="col">Promotion</th></tr></thead>
+<tbody>
+<tr><td>Meat</td><td>Compliments Frozen Beef Burger 100% Angus 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Campfire Sliced Bacon 375 g</td><td>2.99</td><td>7.79</td><td>package</td><td>375 G</td><td>$0.80 per 100g</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Meat</td><td>Sterling Silver Steak Inside Round Value Pack</td><td>28.64</td><td>32.61</td><td>per kg</td><td></td><td>$2.86 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Rib Roast Boneless</td><td>11</td><td>18.28</td><td>per kg</td><td></td><td>$1.10 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Centre Roast Boneless</td><td>11</td><td>18.28</td><td>per kg</td><td></td><td>$1.10 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Inside Round Oven Roast</td><td>28.64</td><td>32.61</td><td>per kg</td><td></td><td>$2.86 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Thick Cut Bacon Double Smoked 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders 50% Less Salt Bacon Hickory Smoked 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Bacon Hickory Smoked Classic Cut 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Tenderloin Cryovac Value Size</td><td>9.79</td><td>20.48</td><td>per kg</td><td></td><td>$0.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Strip Loin Grilling Steak Value Pack</td><td>33.05</td><td>65.01</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Sausage Hot Italian 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Sausages Smoked 375 g</td><td>4.99</td><td>11.29</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Striploin Roast</td><td>33.05</td><td>65.01</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Olymel Fresh Pork Tenderloin 10.8 kg</td><td>11.99</td><td>18.28</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Smoked Sausage Classic Cheddar 375 g</td><td>4.99</td><td>11.29</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Smoked Sausage Classic Recipe 375 g</td><td>4.99</td><td>11.29</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Smoked Sausage Spicy Three Cheese Jalapeño 375 g</td><td>4.99</td><td>11.29</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Hot Dogs 375 g</td><td>4.99</td><td></td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Extra Lean Ground Chicken Breast 450 g</td><td>7.49</td><td>7.79</td><td>package</td><td>450 G</td><td>$1.66 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Ground Turkey Extra Lean 450 g</td><td>7.49</td><td>7.79</td><td>package</td><td>450 G</td><td>$1.66 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Panache Seasoned Chicken Half Portuguese-Style 650 g</td><td>13.21</td><td>16.07</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Maple Leaf Natural Bacon Slices Less Salt 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Piller&#x27;s Smoked Maple Ham 800 g</td><td>14.99</td><td>17.29</td><td>package</td><td>800 G</td><td>$1.87 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Panache Chicken Flattened Greek Style Lemon &amp; Herb 1.3 kg</td><td>13.21</td><td>16.07</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Belmont Frozen Beef Burgers Home Style Sirloin 852 g</td><td>15.99</td><td></td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Center &amp; Rib Chops Thin Cut Boneless</td><td>14.31</td><td>21.58</td><td>per kg</td><td></td><td>$1.43 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Top Sirloin Medallions Steak</td><td>44.07</td><td>53.99</td><td>per kg</td><td></td><td>$4.41 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Top Sirloin Cap Steak Value Pack</td><td>35.25</td><td>49.58</td><td>per kg</td><td></td><td>$3.52 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Ground Beef Extra Lean Family Size</td><td>22.02</td><td>27.09</td><td>per kg</td><td></td><td>$2.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Boneless Top Sirloin Oven Roast</td><td>33.05</td><td>47.38</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Chicken Breasts Boneless Skinless</td><td>19.58</td><td>25.99</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Center &amp; Rib Chops Boneless</td><td>13.21</td><td>20.48</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Steak Top Sirloin Cap</td><td>33.05</td><td>51.79</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Chicken Wings Value Size</td><td>15.41</td><td>18.28</td><td>per kg</td><td></td><td>$1.54 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Naturally Simple Chicken Breasts Boneless Skinless 2 Count</td><td>21.78</td><td></td><td>per kg</td><td></td><td>$2.18 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Back Ribs Cryovac Value Size</td><td>9.79</td><td>22.69</td><td>per kg</td><td></td><td>$0.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Stir Fry Pork Strips</td><td>14.31</td><td>21.58</td><td>per kg</td><td></td><td>$1.43 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Top Sirloin Steak</td><td>35.25</td><td>49.58</td><td>per kg</td><td></td><td>$3.52 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Chicken Breasts Boneless Skinless Value Size</td><td>17.37</td><td>23.79</td><td>per kg</td><td></td><td>$1.74 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Burgers Angus Beef &amp; Smoked Pork Belly 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Center &amp; Rib Chops TC Boneless Family Size</td><td>12.1</td><td>19.38</td><td>per kg</td><td></td><td>$1.21 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Steak Marinating Inside</td><td>30.84</td><td>34.81</td><td>per kg</td><td></td><td>$3.08 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Maple Leaf Natural Bacon Lazy Maple 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Beef Burgers Stuffed Jalapeno &amp; Cheddar 680 g</td><td>15.99</td><td>18.99</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Boneless Sliced Belly Boneless Skinless</td><td>15.41</td><td>20.48</td><td>per kg</td><td></td><td>$1.54 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Beef Burgers Sirloin 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Beef Inside Round For Rouladen</td><td>33.05</td><td>37.02</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Belly Portion Boneless Skinless</td><td>13.21</td><td>18.28</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Fresh Ground Chuck Burger 2 Count</td><td>19.82</td><td>22.69</td><td>per kg</td><td></td><td>$1.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Beef Stir Fry Strips</td><td>33.05</td><td>37.02</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Chicken Breast Air Chilled Boneless Skinless Value Size</td><td>15.17</td><td>20.92</td><td>per kg</td><td></td><td>$1.52 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Thick Cut Bacon Naturally Smoked Value Size 1 kg</td><td>12.99</td><td>20.49</td><td>package</td><td>1000 G</td><td>$1.30 per 100g</td><td>Buy 2 and get 300 PTS</td></tr>
+<tr><td>Meat</td><td>Maple Leaf Natural Bacon Original 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Back Ribs</td><td>11.99</td><td>24.89</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Tenderloin</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Centre &amp; Rib Chops Boneless Family Size</td><td>11</td><td>18.28</td><td>per kg</td><td></td><td>$1.10 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Cardinal Roadhouse Burgers Prime Rib Beef 852 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Juicy Jumbos Hot Dogs Original 450 g</td><td>4.99</td><td></td><td>package</td><td>450 G</td><td>$1.11 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Maple Hot Ham Baked 1 KG</td><td>14.9</td><td>17.9</td><td>per kg</td><td></td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Cold Ham Baked Maple</td><td>14.9</td><td>17.9</td><td>per kg</td><td></td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Breakfast Sausage Original 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Top Sirloin Steak Value Pack</td><td>33.05</td><td>46.27</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Sausage Mild Italian 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Cardinal Roadhouse Burgers Angus Beef 850 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Ground Beef Extra Lean</td><td>24.23</td><td>29.3</td><td>per kg</td><td></td><td>$2.42 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Mumbai Chicken Breast Boneless Skinless</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Belmont Prime Rib Beef Burgers Homestyle 852 g (frozen)</td><td>15.99</td><td></td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Burger Stuffed Cheddar Beef 680 g</td><td>15.99</td><td>18.99</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Bacon 100 g</td><td>4.99</td><td>9.99</td><td>package</td><td>100 G</td><td>$4.99 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Thick Cut Bacon Maple 375 g</td><td>4.99</td><td>9.99</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Souvlaki Pork Tenderloin 518G</td><td>12.72</td><td>22.02</td><td>per kg</td><td></td><td>$1.27 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Beef Burgers Prime Rib 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Montana&#x27;s Frozen Canadian Angus Beef Burger 906 g</td><td>19.99</td><td>25.49</td><td>package</td><td>906 G</td><td>$2.21 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Honey Garlic Boneless Chicken Breast</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Piller&#x27;s Black Forest Ham 800 g</td><td>14.99</td><td>17.29</td><td>package</td><td>800 G</td><td>$1.87 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Panache Chicken Flattened Portuguese Style Seasoned Herbs &amp; Spices 1.13 kg</td><td>13.21</td><td>16.07</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Three Pepper Beef Stir Fry</td><td>33.05</td><td>37.02</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Piller&#x27;s Deli Kolbassa Ham Extra Lean 300 g</td><td>8.49</td><td>9.29</td><td>package</td><td>300 G</td><td>$2.83 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Canadian Frozen Lamb Loin Chops</td><td>41.87</td><td>51.79</td><td>per kg</td><td></td><td>$4.19 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Montreal BBQ Boneless Skinless Chicken Breast</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Fresh Pork Tenderloin Value Size</td><td>9.79</td><td>20.48</td><td>per kg</td><td></td><td>$0.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chicken Wing  Al Pastor SC</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneider&#x27;s Juicy Jumbo Sausages Cheddar &amp; Bacon 375 g</td><td>4.99</td><td>11.49</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Top Sirloin Grilling Steak BBQ Whiskey</td><td>35.25</td><td>49.58</td><td>per kg</td><td></td><td>$3.52 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Grilling Pork Sausages Spicy Maple Cayenne 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Medium Ground Chuck</td><td>19.82</td><td>22.69</td><td>per kg</td><td></td><td>$1.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Roast Garlic And Pepper Boneless Skinless Chicken Breast</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>SC Boneless Center Cut Seasoned Pork Loin 1 KG</td><td>16.51</td><td>23.79</td><td>per kg</td><td></td><td>$1.65 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Chicken Drumettes</td><td>19.82</td><td>20.48</td><td>per kg</td><td></td><td>$1.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Boneless Center Cut Seasoned FS Pork Loin 1 KG</td><td>16.51</td><td>23.79</td><td>per kg</td><td></td><td>$1.65 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Split Honey Siracha Chicken Wings</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Beef Burgers Stuffed Cheddar &amp; Bacon 680 g</td><td>15.99</td><td>18.99</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Schneiders Hot Dogs Cheddar 375 g</td><td>4.99</td><td>11.49</td><td>package</td><td>375 G</td><td>$1.33 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Family Size Beef Medium Ground Chuck</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Al-Pastor Pork Tenderloin</td><td>11.99</td><td></td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chicken Breast Boneless Mumbai</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chili Crisp Pork Tenderloin VA 518 g</td><td>12.72</td><td>22.02</td><td>per kg</td><td></td><td>$1.27 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Dijon Pork Tenderloin</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Sausage Sliders Bratwurst 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Raised Without Antibiotics Chicken Wings Split</td><td>19.82</td><td>20.48</td><td>per kg</td><td></td><td>$1.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Honey Dijon Pork Tenderloin</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Sausage Sliders Black &amp; Roasted Garlic 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Brd Italian B/S Chicken Breast</td><td>19.58</td><td></td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Back Ribs BBQ Whiskey</td><td>11.99</td><td>24.89</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Maple &amp; Chipotle Chicken Split Wings</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Tenderloin Souvlaki</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Piller&#x27;s Turkey Kolbassa 250 g</td><td>8.49</td><td>9.29</td><td>package</td><td>250 G</td><td>$3.40 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Maple Chipotle Pork Tenderloin</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Boneless Center Chops BBQ Whisky</td><td>13.21</td><td>20.48</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Honey Garlic Boneless Skinless Chicken Breast</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>BBQ Whiskey Boneless Chicken Breast</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Cardinal Roadhouse Burgers Sirloin Beef 852 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Maple &amp; Chipotle S/C Chicken Split Wings</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chicken Split Wings Honey Garlic</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Tenderloin Maple Chipotle</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chicken Wings BBQ Whiskey</td><td>17.61</td><td>19.82</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>AA boneless 1/2 vs cov Striploin</td><td>33.05</td><td>49.58</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Grilling Steak Striploin</td><td>35.25</td><td>67.22</td><td>per kg</td><td></td><td>$3.52 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Breakfast Sausage Smokey Maple 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Spicy Lemon Boneless Breast Chicken</td><td>19.58</td><td>28.2</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Top Sirloin Cap Roast</td><td>33.05</td><td>49.58</td><td>per kg</td><td></td><td>$3.30 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Split Honey Siracha S/C Chicken Wings</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Fresh Medium Chuck Burger S/C</td><td>19.82</td><td>22.69</td><td>per kg</td><td></td><td>$1.98 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Ready For You Chicken Schnitzel</td><td>39.9</td><td>46.9</td><td>per kg</td><td></td><td>$3.99 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chicken Wing Al Pastor</td><td>17.61</td><td>20.48</td><td>per kg</td><td></td><td>$1.76 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chili Crisp SS Chicken Breast Boneless</td><td>19.58</td><td>24.23</td><td>per kg</td><td></td><td>$1.96 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Pork Sausage Honey Garlic 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Panache Chicken Flattened Jerk</td><td>13.21</td><td>16.07</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Sterling Silver Montreal BBQ Top Sirlion Grilling Steaks</td><td>35.25</td><td>49.58</td><td>per kg</td><td></td><td>$3.52 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Boneless Pork Loin Center Chops Montreal BBQ</td><td>13.21</td><td>20.48</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Pork Loin Center Chops Boneless Maple Chipotle</td><td>13.21</td><td>20.48</td><td>per kg</td><td></td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Honey Garlic Pork Tenderloin</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Piller&#x27;s Sausage Kolbassa 375 g</td><td>8.49</td><td>9.29</td><td>package</td><td>375 G</td><td>$2.26 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Compliments Frozen Grilling Pork Sausages Smoky Chorizo 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Boneless Pork Loin Homestyle Center Roast</td><td>11</td><td>18.28</td><td>per kg</td><td></td><td>$1.10 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Honey Garlic Pork Back Ribs</td><td>11.99</td><td>24.89</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Meat</td><td>Chilli Crisp Pork Tenderloin</td><td>11.99</td><td>22.69</td><td>per kg</td><td></td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Royal Asia Shrimp Wonton Soup 454 g</td><td>9.99</td><td>12.29</td><td>package</td><td>474 ML</td><td>$2.11 per 100ml</td><td></td></tr>
+<tr><td>Seafood</td><td>Fresh Atlantic Salmon Fillets</td><td>39.9</td><td></td><td>per kg</td><td></td><td>$3.99 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Ultra Natural Raw 51/70 Ct PDTL Shrimp 300 g</td><td>9.99</td><td>13.29</td><td>package</td><td>300 G</td><td>$3.33 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Ultra Natural Frozen Cooked Shrimp 51/70 Count 300 g</td><td>9.99</td><td>14.29</td><td>package</td><td>300 G</td><td>$3.33 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Pacific Fresh Rockfish Fillets</td><td>18.9</td><td>22.9</td><td>per kg</td><td></td><td>$1.89 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Royal Asia Shrimp Wontons With Sichuan Sauce 207 g</td><td>9.99</td><td>12.29</td><td>package</td><td>207 G</td><td>$4.83 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Eight Treasures Frozen Shrimp Raw Head On 40-50 Count 400 g</td><td>6.88</td><td>7.99</td><td>package</td><td>400 G</td><td>$1.72 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Green peppercorn TP Atlantic Salmon Fillet</td><td>39.9</td><td></td><td>per kg</td><td></td><td>$3.99 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Compliments Frozen Wild Snow Crab Clusters Fully Cooked Newfoundland &amp; Labrador 454 g</td><td>24.99</td><td>35.99</td><td>package</td><td>454 G</td><td>$7.93 per 100g</td><td></td></tr>
+<tr><td>Seafood</td><td>Wild Garlic TP Atl Salmon Fillet</td><td>39.9</td><td></td><td>per kg</td><td></td><td>$3.99 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Dragon Fruit 1 Count</td><td>3.98</td><td>6.29</td><td>package</td><td>1 EA</td><td>$3.98 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Fresh Attitude Salad Kit Spring Mix 318 g</td><td>6.99</td><td>9.99</td><td>package</td><td>318 G</td><td>$2.20 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Granny Smith Apple Large 3 Count</td><td>5.38</td><td>6.59</td><td>per kg</td><td></td><td>$0.54 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>SanLucar Clementines/Mandarins 907 g</td><td>3.99</td><td>7.99</td><td>package</td><td>907 G</td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Celery Cello 1 Bunch</td><td>2.99</td><td>3.99</td><td>package</td><td>1 EA</td><td>$2.99 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Golden Pineapple 1 Count</td><td>6.49</td><td>6.99</td><td>package</td><td>1 EA</td><td>$6.49 per EA</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Carrots Baby-Cut 907 g</td><td>4.99</td><td>6.29</td><td>package</td><td>907 G</td><td>$0.55 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Hass Avocados 5 Count (Ripe in 3-5 days)</td><td>2.99</td><td>6.29</td><td>package</td><td>5 EA</td><td>$0.60 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Lemon Large 1 Count</td><td>0.99</td><td>1.49</td><td>package</td><td>1 EA</td><td>$0.99 per EA</td><td>Buy 2 and get 50 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Sweet Bell Peppers 3 Pack</td><td>3.99</td><td>7.49</td><td>package</td><td>3 EA</td><td>$1.33 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Clementines/Mandarins 907 g</td><td>3.99</td><td></td><td>package</td><td>907 G</td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Avocado Hass Large 1 Count</td><td>2.33</td><td></td><td>each</td><td></td><td></td><td>Buy 3 for $7 (multi-buy)</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Organic Mushrooms White Button 227 g</td><td>3.44</td><td>3.99</td><td>package</td><td>227 G</td><td>$1.52 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>English Cucumber Seedless 1 Count</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Baking Russet Potatoes 2.27 kg</td><td>3.99</td><td>7.29</td><td>package</td><td>2270 G</td><td>$0.18 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Roasting Red Potatoes 2.27 kg</td><td>3.99</td><td>7.29</td><td>package</td><td>2270 G</td><td>$0.18 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Fresh Attitude Salad Kit Caesar Bacon Dressing 413 g</td><td>6.99</td><td>9.99</td><td>package</td><td>413 G</td><td>$1.69 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>White Green Seedless Grapes 1 Bunch</td><td>8.8</td><td>13.21</td><td>per kg</td><td></td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments White Boiling Potatoes 2.27 kg</td><td>3.99</td><td>7.29</td><td>package</td><td>2270 G</td><td>$0.18 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Compliments Yellow-Fleshed Potatoes Mashing 2.27 kg</td><td>3.99</td><td>7.29</td><td>package</td><td>2270 G</td><td>$0.18 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Green Jalapeno Peppers 4 Count</td><td>11</td><td>16.07</td><td>per kg</td><td></td><td>$1.10 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Sharonfruit / Fuyu Persimmons 1 Count</td><td>1.25</td><td></td><td>each</td><td></td><td></td><td>Buy 4 for $5 (multi-buy)</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Cantaloupe Large 1 Count</td><td>5.99</td><td>6.99</td><td>package</td><td>1 EA</td><td>$6.99 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>GoodLeaf Mix Sweet &amp; Spicy 226 g</td><td>6.99</td><td>9.29</td><td>package</td><td>226 G</td><td>$3.09 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Leeks</td><td>6.59</td><td>10.34</td><td>per kg</td><td></td><td>$0.66 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Blackberries 170 g</td><td>3.99</td><td>5.99</td><td>package</td><td>170 G</td><td>$2.35 per 100g</td><td>Buy 3 and get 300 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Driscoll&#x27;s Raspberries 170 g</td><td>3.99</td><td>5.99</td><td>package</td><td>170 G</td><td>$2.35 per 100g</td><td>Buy 3 and get 300 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>GoodLeaf Lettuce Cool Crisp 226 g</td><td>6.99</td><td>9.29</td><td>package</td><td>226 G</td><td>$3.09 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Cauliflower 1 Count</td><td>4.99</td><td>6.99</td><td>package</td><td>1 EA</td><td>$4.99 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Mann&#x27;s Family Favorites Broccoli Wokly 340 g</td><td>4.99</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.47 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Orange Flesh Yams Sweet Potato</td><td>4.39</td><td></td><td>per kg</td><td></td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Blueberries 170 g</td><td>3.99</td><td>6.99</td><td>package</td><td>170 G</td><td>$2.35 per 100g</td><td>Buy 3 and get 300 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Lime 1 Count</td><td>0.99</td><td>1.29</td><td>package</td><td>1 EA</td><td>$0.99 per EA</td><td>Buy 2 and get 50 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Rainbow Peppers Large 3 Count</td><td>3.99</td><td>7.49</td><td>package</td><td>3 EA</td><td>$1.33 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Nature Fresh Farms Mini Sweet Peppers 454 g</td><td>5.99</td><td>6.99</td><td>package</td><td>454 G</td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Granny Smith Apple Small 3 Count</td><td>5.38</td><td>6.59</td><td>per kg</td><td></td><td>$0.54 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Wonderful Halos Clementines / Mandarins 907 g</td><td>3.99</td><td>5.99</td><td>package</td><td>907 G</td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Purple/Red Carrots</td><td>4.41</td><td>5.49</td><td>per kg</td><td></td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Golden Delicious Apple Large 3 Count</td><td>5.38</td><td>5.49</td><td>per kg</td><td></td><td>$0.54 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Tuscan Cantaloupe</td><td>5.99</td><td>6.99</td><td>package</td><td>1 EA</td><td>$6.99 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Fresh Attitude Salad Kit Spring Mix 342 g</td><td>6.99</td><td>9.99</td><td>package</td><td>342 G</td><td>$2.04 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Mini Carrots Peeled 907 g</td><td>4.99</td><td>6.29</td><td>package</td><td>907 G</td><td>$0.55 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Pomegranate Large 1 Count</td><td>4.99</td><td>5.29</td><td>package</td><td>1 EA</td><td>$4.99 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Clementines-Mandarins 907 g</td><td>3.99</td><td>5.99</td><td>package</td><td>907 G</td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Clementines / Mandarines 907 g</td><td>3.99</td><td>5.99</td><td>package</td><td>907 G</td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Golden Delicious Apple 3 Count</td><td>5.38</td><td>5.49</td><td>per kg</td><td></td><td>$0.54 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Small Golden Pineapple 1 Count</td><td>6.49</td><td>6.99</td><td>package</td><td>1 EA</td><td>$6.49 per EA</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Flat Cabbage</td><td>4.41</td><td></td><td>per kg</td><td></td><td>$0.44 per 100g</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Cauliflower Large 1 Count</td><td>4.99</td><td>6.99</td><td>package</td><td>1 EA</td><td>$4.99 per EA</td><td></td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Pomegranate 1 Count</td><td>4.99</td><td>6.29</td><td>package</td><td>1 EA</td><td>$4.99 per EA</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Fresh Fruits &amp; Vegetables</td><td>Celery 1 Bunch</td><td>2.99</td><td>3.99</td><td>package</td><td>1 EA</td><td>$2.99 per EA</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Limited Edition Peppermint Mocha 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Danone Activia Probiotic Yogurt Plain 8 x 100 g</td><td>3.99</td><td>6.29</td><td>package</td><td>8 x 100 G</td><td>$0.50 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Activa Yogurt Fiber+ Probiotics Prebiotic Fibre Vanilla 625 g</td><td>3.99</td><td>6.29</td><td>package</td><td>625 G</td><td>$0.64 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Riviera Plant Based Coconut Yogurt Raspberry Blackcurrant 500 g</td><td>5.99</td><td>8.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Activia Probiotic Yogurt Raspberry 8 x 100 g</td><td>3.99</td><td>6.29</td><td>package</td><td>8 x 100 G</td><td>$0.50 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Danone Activia Yogurt Lemon 8 x 100 g</td><td>3.99</td><td>6.29</td><td>package</td><td>8 x 100 G</td><td>$0.50 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Activia Fibre+ Pre/Probiotic 2.9% Yogurt Plain 625 g</td><td>3.99</td><td>6.29</td><td>package</td><td>625 G</td><td>$0.64 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Reduced Sugar Coffee Creamer French Vanilla 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Vanilla Toffee Caramel 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Zero Sugar Coffee Creamer Hazelnut 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Hazelnut 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Southern Butter Pecan 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Fat Free Coffee Creamer French Vanilla 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer French Vanilla 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Danone Activia Yogurt Strawberry 8 x 100 g</td><td>3.99</td><td>6.29</td><td>package</td><td>8 x 100 G</td><td>$0.50 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Activia Lactose-Free Probiotics Yogurt Vanilla 8 x 100 g</td><td>3.99</td><td>6.29</td><td>package</td><td>8 x 100 G</td><td>$0.50 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>I Can&#x27;t Believe It&#x27;s Not Butter! Original 400 g</td><td>2.99</td><td>3.79</td><td>package</td><td>400 G</td><td>$0.75 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Compliments 14% Sour Cream 250 ml</td><td>2.49</td><td>3.49</td><td>package</td><td>250 ML</td><td>$1.00 per 100ml</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Natrel Organic 1% Filtered Milk 2 L</td><td>5.99</td><td>8.29</td><td>package</td><td>2000 ML</td><td>$0.30 per 100ml</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Natrel Organic 3.25% Filtered Milk 2 L</td><td>5.99</td><td>8.29</td><td>package</td><td>2000 ML</td><td>$0.30 per 100ml</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Activia 2.2% Yogurt With Probiotics Vanilla 8 x 100 g</td><td>3.99</td><td>6.29</td><td>package</td><td>8 x 100 G</td><td>$0.50 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Lactantia Butter Salted 125 g</td><td>2.99</td><td>3.99</td><td>package</td><td>125 G</td><td>$2.39 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Natrel Organic Fat Free 0% Skim Milk 2 L</td><td>5.99</td><td>8.29</td><td>package</td><td>2000 ML</td><td>$0.30 per 100ml</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Lucerne 10% Cream Half &amp; Half 1 L</td><td>3.99</td><td>4.59</td><td>package</td><td>1000 ML</td><td>$0.40 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Lactantia Butter Garlic &amp; Provencal Herb 125 g</td><td>2.99</td><td>3.99</td><td>package</td><td>125 G</td><td>$2.39 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Compliments Eggs Large Value Size 18 Count</td><td>5.44</td><td>6.37</td><td>package</td><td>18 EA</td><td>$0.30 per EA</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Lucerne Fat-Free Creamer 1 L</td><td>3.99</td><td>4.55</td><td>package</td><td>1000 ML</td><td>$0.40 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Compliments White Eggs Free Run Large 12 Count</td><td>5.44</td><td></td><td>package</td><td>12 EA</td><td>$0.45 per EA</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Compliments Regular Whipped Cream 400 g</td><td>6.49</td><td>7.49</td><td>package</td><td>400 G</td><td>$1.87 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Heluva Good! Sour Cream Dip French Onion 680 g</td><td>8.49</td><td>9.69</td><td>package</td><td>680 G</td><td>$1.25 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Compliments 5% Sour Cream Light 250 ml</td><td>2.49</td><td>3.49</td><td>package</td><td>250 ML</td><td>$1.00 per 100ml</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Natrel Organic 2% Filtered Milk 2 L</td><td>5.99</td><td>8.29</td><td>package</td><td>2 L</td><td>$0.30 per 100ml</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Irish Crème 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Maple Latte 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Creamer Sweet And Creamy 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Coffee Enhancer Cinnabon Classic Cinnamon Roll 946 ml</td><td>5.99</td><td>7.79</td><td>package</td><td>946 ML</td><td>$0.63 per 100ml</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>International Delight Cold Foam French Vanilla 396 g</td><td>5.99</td><td>7.29</td><td>package</td><td>396 G</td><td>$1.51 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Riviera Gourmet Plant Based Coconut Yogurt Cappuccino 500 g</td><td>5.99</td><td>8.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>iÖGO 1% Yogurt Pouch Creamy Strawberry 2 kg</td><td>11.49</td><td>13.29</td><td>package</td><td>2000 G</td><td>$0.57 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Riviera Vegan Coconut Yogurt Plain 650 g</td><td>5.99</td><td>8.29</td><td>package</td><td>650 G</td><td>$0.92 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>iÖGO 1% Yogurt Pouch Creamy Peach 2 kg</td><td>11.49</td><td>13.29</td><td>package</td><td>2000 G</td><td>$0.57 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Silk Oat Cold Foam Cinnamon Caramel 369 g</td><td>5.99</td><td>7.49</td><td>package</td><td>369 G</td><td>$1.62 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>iÖGO 1% Yogurt Pouch Creamy Vanilla 2 kg</td><td>11.49</td><td>13.29</td><td>package</td><td>2000 G</td><td>$0.57 per 100g</td><td></td></tr>
+<tr><td>Dairy &amp; Eggs</td><td>Riviera Plant Based Coconut Yogurt Vanilla 650 g</td><td>5.99</td><td>8.29</td><td>package</td><td>650 G</td><td>$0.92 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Cracker Barrel Cheese Spread Tex Mex 200 g</td><td>2.99</td><td>4.99</td><td>package</td><td>200 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Kraft Sliced Process Cheese Sharp Cheddar 14 Extra Thick Slices 410 g</td><td>3.97</td><td>6.99</td><td>package</td><td>410 G</td><td>$0.97 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Cheddar Cheese Block Mild 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Castello 1Yr Tickler Cheddar Cheese 200 g</td><td>6.99</td><td></td><td>package</td><td>200 G</td><td>$3.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Castello Aged Gouda 200 g</td><td>6.99</td><td>10.29</td><td>package</td><td>200 G</td><td>$3.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Kraft Sliced Process Cheese Original 26 Thin Slices 410 g</td><td>3.97</td><td>6.99</td><td>package</td><td>410 G</td><td>$0.97 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Velveeta Sliced Process Cheese Original 22 Thin Slices 410 g</td><td>3.97</td><td>6.99</td><td>package</td><td>410 G</td><td>$0.97 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Kraft Sliced Process Cheese Original 14 Thick Slices 410 g</td><td>3.97</td><td>6.99</td><td>package</td><td>410 G</td><td>$0.97 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Kraft Sliced Process Cheese Original 22 Slices 410 g</td><td>3.97</td><td>6.99</td><td>package</td><td>410 G</td><td>$0.97 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Salsa Mild Restaurant Style 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Medium Cheddar 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Blend Light Tex Mex 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Lactose-Free Old Cheddar Block 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Havarti 400 g</td><td>5.27</td><td>7.79</td><td>package</td><td>400 G</td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Salsa Medium Restaurant Style 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Monterey Jack 400 g</td><td>5.27</td><td>7.79</td><td>package</td><td>400 G</td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Salsa Mild Chunky 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Extra Old Cheddar White 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Salsa Medium Chunky 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Lactose-Free Block Cheese Marble Cheddar 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Cheese Pizza Mozzarella Block 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Tex Mex Blend 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Cheddar Marble Cheese Block 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Medium Cheddar 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Cheese Light Old Cheddar Block 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments 26% Shredded Cheese Blend Cheddar &amp; Part Skim Pizza Mozzarella 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Part Skim Mozzarella 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments White Cheese Old Cheddar Block 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Old Cheddar 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Grissol Melba Toast Original Plain 400 g</td><td>5.99</td><td>7.29</td><td>package</td><td>400 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Medium Cheddar White 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Triple Cheddar Blend 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Strubs Snackers Dill And Garlic Pickles</td><td>7.99</td><td>8.79</td><td>package</td><td>1000 ML</td><td>$0.88 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Pizza Blend 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Pizza Mozzarella 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Gouda Cheese 400 g</td><td>5.27</td><td>7.79</td><td>package</td><td>400 G</td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Castello Tickler Cheddar Cheese Extra Mature 200 g</td><td>6.99</td><td>11.29</td><td>package</td><td>200 G</td><td>$3.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Cheddar Light Marble Cheese 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Lactose-Free Block Cheese Old White Cheddar 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Part Skim Pizza Mozzarella 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments 30% Shredded Cheese Blend Italian Style 320 g</td><td>4.77</td><td>6.99</td><td>package</td><td>320 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Maple Leaf Natural Selection Deli Turkey Oven Roasted</td><td>44.9</td><td>54.9</td><td>per kg</td><td></td><td>$4.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Block Cheese Mozzarella 400 g</td><td>4.77</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Heluva Good! Sour Cream Dip French Onion 680 g</td><td>8.49</td><td>9.69</td><td>package</td><td>680 G</td><td>$1.25 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Kraft Sliced Process Cheese Mozzarella 22 Slices 410 g</td><td>3.97</td><td>6.99</td><td>package</td><td>22 x 18.64 G</td><td>$0.97 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Castello Cheese Havarti Aged 200 g</td><td>6.99</td><td></td><td>package</td><td>200 G</td><td>$3.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Castello Cheddar Cheese Savoury Onion 200 g</td><td>6.99</td><td></td><td>package</td><td>200 G</td><td>$3.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Cracker Barrel Cheese Spread Habanero 200 g</td><td>2.99</td><td>4.99</td><td>package</td><td>200 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Shredded Cheese Parmesan 226 g</td><td>4.77</td><td>6.99</td><td>package</td><td>226 G</td><td>$2.11 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Piller&#x27;s Deli Kolbassa Ham Extra Lean 300 g</td><td>8.49</td><td>9.29</td><td>package</td><td>300 G</td><td>$2.83 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Compliments Salsa Hot Chunky 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Strubs Dill &amp; Garlic Spears Pickles 1 l</td><td>7.99</td><td>8.79</td><td>package</td><td>1000 ML</td><td>$0.88 per 100ml</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Castello Cheese Cheddar Black Pepper200 g</td><td>6.99</td><td></td><td>package</td><td>200 G</td><td>$3.50 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Piller&#x27;s Turkey Kolbassa 250 g</td><td>8.49</td><td>9.29</td><td>package</td><td>250 G</td><td>$3.40 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Maple Leaf Natural Selections Ham Smoked Black Forest</td><td>44.9</td><td>54.9</td><td>per kg</td><td></td><td>$4.49 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Piller&#x27;s Sausage Kolbassa 375 g</td><td>8.49</td><td>9.29</td><td>package</td><td>375 G</td><td>$2.26 per 100g</td><td></td></tr>
+<tr><td>Cheese &amp; Deli</td><td>Platter 12 count Deviled Egg</td><td>9.99</td><td>11.49</td><td>package</td><td>1 EA</td><td>$9.99 per EA</td><td>Buy 2 and get 100 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Oreo Mini Snak Pak Sandwich Cookies Golden 6 x 25 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Teddy Graham Cookies 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Vachon Passion Flaky Pastries Apple Raspberry 6 Pack 305 g</td><td>3.99</td><td>6.49</td><td>package</td><td>305 G</td><td>$1.31 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Signature Sweet Hawaiian Rolls 420 g</td><td>3.99</td><td>5.49</td><td>package</td><td>12 x 39.58 G</td><td>$0.84 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Chips Ahoy! Peanut-Free Mini Cookies Rainbow Chocolate Chip 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Pastry Box Frozen Cheesecake 6-Inch Original NY 600 g</td><td>13.99</td><td>14.29</td><td>package</td><td>600 G</td><td>$2.33 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dare Ultimate Peanut-Free Cookies Coconut Creme 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dare Ultimate Peanut-Free Cookies Maple Crème 300 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dare Ultimate Cookies Fudge Chocolate Creme 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Barnums Animal Crackers 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dare Ultimate Peanut-Free Cookies Lemon Crème 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster&#x27;s Signature Burger Buns Classic 8 Pack 616 g</td><td>3.99</td><td>5.49</td><td>package</td><td>616 G</td><td>$0.65 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Signature Pull-Aparts Rolls Brioche 420 g</td><td>3.99</td><td>5.49</td><td>package</td><td>12 x 35.42 G</td><td>$0.94 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster&#x27;s Signature The Gold Burger Buns 8 Pack</td><td>3.99</td><td>5.49</td><td>package</td><td>8 EA</td><td>$0.50 per EA</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Chips Ahoy! Cookies Mini Rainbow Snak Pak 144 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Burrito Tortillas White Extra Large 600 g</td><td>3.99</td><td>5.99</td><td>package</td><td>6 x 100 G</td><td>$0.67 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Oreo Mini Sandwich Cookies Golden 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Tortillas 100% Whole Wheat Large 610 g</td><td>3.99</td><td>5.99</td><td>package</td><td>610 G</td><td>$0.65 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster&#x27;s Signature The Gold Sausage Buns 6 Pack 426 g</td><td>3.99</td><td>5.49</td><td>package</td><td>6 x 71 G</td><td>$0.94 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Oreo Mini Sandwich Cookies Original 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Christie Mini Chips Ahoy! Peanut-Free Cookies Mini Snack Pack 6 x 26 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Tortillas Ancient Grains Large 488 g</td><td>3.99</td><td>5.99</td><td>package</td><td>488 G</td><td>$0.82 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Oreo Mini Snak Pak Sandwich Cookies 6 x 25 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Silver Hills Little Big Bread 430 g (frozen)</td><td>3.99</td><td>5.99</td><td>package</td><td>430 G</td><td>$0.93 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Tortillas Original Large 610 g</td><td>3.99</td><td>5.99</td><td>package</td><td>610 G</td><td>$0.65 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster&#x27;s White Deluxe Sausage Buns 6 Pack</td><td>3.99</td><td>5.49</td><td>package</td><td>6 EA</td><td>$0.67 per EA</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Tortillas Spinach 10-Inch 426 g</td><td>3.99</td><td>5.99</td><td>package</td><td>426 G</td><td>$0.94 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Chips Ahoy! Mini Chocolate Chip Cookies 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster’s Tortillas Sundried Tomato Large 426 g</td><td>3.99</td><td>5.99</td><td>package</td><td>426 G</td><td>$0.94 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Silver Hills Bakery Organic Multi Grain Bread 680 g (frozen)</td><td>3.99</td><td>6.49</td><td>package</td><td>680 G</td><td>$0.59 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Pastry Box Frozen Cheesecake 6-Inch Strawberry 600 g</td><td>13.99</td><td>14.29</td><td>package</td><td>600 G</td><td>$2.33 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Original Cakerie Nanaimo Bars 6 Pack 342 g</td><td>6.99</td><td>7.29</td><td>package</td><td>342 G</td><td>$2.04 per 100g</td><td>Buy 2 and get 500 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Pastry Box Frozen Cheesecake 6-Inch Chocolate Swirl 600 g</td><td>14.99</td><td>15.29</td><td>package</td><td>600 G</td><td>$2.50 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Silver Hills Organic Frozen Wheat Sprouted Bread Full Seed Ahead 680 g</td><td>3.99</td><td>6.49</td><td>package</td><td>660 G</td><td>$0.60 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Chocolate Dessert Cake 1.5 KG</td><td>27.99</td><td>29.99</td><td>package</td><td>1570 G</td><td>$1.78 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>1/2 Chocolate Dessert Cake 750 g</td><td>14.99</td><td>15.99</td><td>package</td><td>785 G</td><td>$1.91 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Pastry Box Frozen Cheesecake 6-Inch Raspberry Swirl 600 g</td><td>13.99</td><td>14.29</td><td>package</td><td>600 G</td><td>$2.33 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Original Cakerie Deep Dutch Brownie Bars With Walnuts 6 Pack 354 g</td><td>6.99</td><td>7.29</td><td>package</td><td>6 x 59 G</td><td>$1.97 per 100g</td><td>Buy 2 and get 500 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Panache Dessert Tiramisu 650 g (frozen)</td><td>14.99</td><td>15.29</td><td>package</td><td>650 G</td><td>$2.31 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Compliments Bread Sliced Marble Rye 500 g</td><td>4.99</td><td>5.79</td><td>package</td><td>500 G</td><td>$1.16 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Pastry Box Frozen Cheesecake 6-Inch Caramel Pecan 600 g</td><td>14.99</td><td>15.29</td><td>package</td><td>600 G</td><td>$2.50 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Panache Profiteroles 400 g (frozen)</td><td>12.99</td><td>13.29</td><td>package</td><td>400 G</td><td>$3.25 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Cupcakes Assorted 6 Pack 300 g (frozen)</td><td>7.99</td><td>8.29</td><td>package</td><td>335 G</td><td>$2.39 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Pastry Box Frozen Cheesecake Variety 350 g</td><td>10.99</td><td>11.29</td><td>package</td><td>350 G</td><td>$3.14 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Panache Eclairs Mini 455 g (frozen)</td><td>12.99</td><td>13.29</td><td>package</td><td>455 G</td><td>$2.85 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Panache Chocolate Covered Mini Profiteroles 300 g (frozen)</td><td>12.99</td><td>13.29</td><td>package</td><td>300 G</td><td>$4.33 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Multigrain Baguette Artisan Style 325 g</td><td>2.99</td><td>3.29</td><td>package</td><td>325 G</td><td>$0.92 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>3D Cupcakes White 6 Pack 310 g</td><td>8.99</td><td>9.29</td><td>package</td><td>310 G</td><td>$2.90 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Gourmet Cinnamon Buns With Cream Cheese Icing 4 Pack 750 g</td><td>6.99</td><td>8.79</td><td>package</td><td>750 G</td><td>$0.93 per 100g</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dempster&#x27;s Buns Spicy Habanero 8 x 63 g</td><td>3.99</td><td>5.49</td><td>package</td><td>8 x 63 G</td><td>$0.79 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Pumpkin Spice 6 Pack Cupcakes 320 g</td><td>8.99</td><td>9.29</td><td>package</td><td>320 G</td><td>$2.81 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Original Cake Macaroon Madness 6 Pack Square 354 g</td><td>6.99</td><td>7.29</td><td>package</td><td>345 G</td><td>$2.03 per 100g</td><td>Buy 2 and get 500 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Gourmet Peanutbutter Marshmallow 4Pk Cinnamon Buns 800 g</td><td>6.99</td><td>8.79</td><td>package</td><td>800 G</td><td>$0.87 per 100g</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Panache Mousse Tiramisu And Triple Chocolate 300 g (frozen)</td><td>11.99</td><td>12.29</td><td>package</td><td>300 G</td><td>$4.00 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>The Original Cakerie With Walnuts 6 Pack Buttertart Bars 354 g</td><td>6.99</td><td>7.29</td><td>package</td><td>6 x 59 G</td><td>$1.97 per 100g</td><td>Buy 2 and get 500 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Gourmet Cookies And Cream 4Pk Cinnamon Buns 750 g</td><td>6.99</td><td>8.79</td><td>package</td><td>750 G</td><td>$0.93 per 100g</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Dare Ultimate Hot Wheels Premium Crème Filled Cookies Red Velvet 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Gourmet Cinnamon Buns 640 g</td><td>6.99</td><td>8.29</td><td>package</td><td>690 G</td><td>$1.01 per 100g</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Bread &amp; Bakery</td><td>TWI Crispy Sliced Pound Cake Almond 368 g</td><td>4.99</td><td>6.29</td><td>package</td><td>368 G</td><td>$1.36 per 100g</td><td></td></tr>
+<tr><td>Bread &amp; Bakery</td><td>Cupcakes Assorted 3D 6 Pack 310 g</td><td>8.99</td><td>9.29</td><td>package</td><td>310 G</td><td>$2.90 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Ferrero Canada Nutella Peanut 725 g</td><td>9.99</td><td>10.99</td><td>package</td><td>725 G</td><td>$1.38 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Pantry</td><td>Berio Light Olive Oil 1 L</td><td>17.49</td><td></td><td>package</td><td>1000 ML</td><td>$1.75 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Petite Cut Stewed Tomatoes Garlic &amp; Olive Oil 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Oreo Mini Snak Pak Sandwich Cookies Golden 6 x 25 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Chunky Stewed Tomatoes Original 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Diced Tomatoes Fire Roasted 398 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Canned Diced Tomatoes Italian Spice No Salt 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Tomatoes Chili Seasoning Stewed 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Old El Paso Dinner Kit Fajita 400 g</td><td>4.49</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.12 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Teddy Graham Cookies 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Vachon Ah Caramel Dessert Cakes The Original 12 Pack 336 g</td><td>3.99</td><td>6.49</td><td>package</td><td>12 x 28 G</td><td>$1.19 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Vachon Passion Flaky Pastries Apple Raspberry 6 Pack 305 g</td><td>3.99</td><td>6.49</td><td>package</td><td>305 G</td><td>$1.31 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Berio Olive Oil Extra Virgin 1 L</td><td>17.49</td><td></td><td>package</td><td>1000 ML</td><td>$1.75 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Filippo Berio Olive Oil Pure 1 L</td><td>17.49</td><td></td><td>package</td><td>1000 ML</td><td>$1.75 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Johnvince Pine Nuts 110 g</td><td>8.99</td><td>12.29</td><td>package</td><td>110 G</td><td>$11.17 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Cereal Corn Squares Bran 375 g</td><td>3.99</td><td>6.29</td><td>package</td><td>375 G</td><td>$1.06 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Barilla Gluten-Free Pasta Macaroni Elbows 340 g</td><td>3.49</td><td>3.99</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Chips Ahoy! Peanut-Free Mini Cookies Rainbow Chocolate Chip 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Cheerios Cereal Naturally Flavoured Apple Cinnamon 778 g</td><td>5.47</td><td>8.99</td><td>package</td><td>778 G</td><td>$0.70 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments All Purpose Flour 2.5 kg</td><td>4.99</td><td>6.49</td><td>package</td><td>2500 G</td><td>$0.20 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Vachon Jos Louis Cakes Snack The Original 6 Pack 324 g</td><td>3.99</td><td>6.49</td><td>package</td><td>324 G</td><td>$1.23 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Vachon Half Moon Cakes Vanilla 282 g</td><td>3.99</td><td>6.49</td><td>package</td><td>282 G</td><td>$1.41 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Cereal Oatmeal Squares 500 g</td><td>3.99</td><td>6.29</td><td>package</td><td>500 G</td><td>$0.80 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Low Fat Sweetened Condensed Milk 300 ml</td><td>3.99</td><td>5.79</td><td>package</td><td>300 ML</td><td>$1.33 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Salsa Mild Restaurant Style 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Dare Ultimate Peanut-Free Cookies Coconut Creme 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Dare Ultimate Peanut-Free Cookies Maple Crème 300 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Dare Ultimate Cookies Fudge Chocolate Creme 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal Peaches &amp; Cream 264 g</td><td>3.99</td><td>5.29</td><td>package</td><td>264 G</td><td>$1.51 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Johnvince Foods Salted Peanuts 800 g</td><td>7.99</td><td>10.29</td><td>package</td><td>800 G</td><td>$1.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Dino Eggs Instant Oatmeal Brown Sugar 8 Pack 304 g</td><td>3.99</td><td>5.29</td><td>package</td><td>304 G</td><td>$1.31 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal Apples &amp; Cinnamon 264 g</td><td>3.99</td><td>5.29</td><td>package</td><td>264 G</td><td>$1.51 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal Regular 280 g</td><td>3.99</td><td>5.29</td><td>package</td><td>280 G</td><td>$1.43 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Dare Ultimate Premium Crème Filled Cookies Apple Fritter 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Mutti Polpa Tomatoes Finely Chopped 796 ml</td><td>5.49</td><td>8.29</td><td>package</td><td>796 ML</td><td>$0.69 per 100ml</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Pantry</td><td>Oatmeal Crisp Cereal Almond High Fibre Family Size 628 g</td><td>5.47</td><td>8.99</td><td>package</td><td>628 G</td><td>$0.87 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Oatmeal Crisp Cereal Triple Berry High Fibre Family Size 570 g</td><td>5.47</td><td>8.99</td><td>package</td><td>570 G</td><td>$0.96 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Fibre One Cereal Honey Clusters 475 g</td><td>5.47</td><td>8.99</td><td>package</td><td>475 G</td><td>$1.15 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Cheerios Cereal Original Whole Grains Family Size 570 g</td><td>5.47</td><td>8.99</td><td>package</td><td>570 G</td><td>$0.96 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Oatmeal Crisp Cereal Protein Apple Crisp 455 g</td><td>5.47</td><td>8.99</td><td>package</td><td>455 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Nestle Nesquik Cereal 521 g</td><td>5.47</td><td>8.99</td><td>package</td><td>521 G</td><td>$1.05 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Nature Valley Granola Protein Oats &#x27;N Honey Family Size 481 g</td><td>5.47</td><td>8.99</td><td>package</td><td>481 G</td><td>$1.14 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Fibre One Cereal Crunchy Original 587 g</td><td>5.47</td><td>8.99</td><td>package</td><td>587 G</td><td>$0.93 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Cinnamon Toast Crunch Cereal Whole Grains Family Size 591 g</td><td>5.47</td><td>8.99</td><td>package</td><td>591 G</td><td>$0.93 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Lucky Charms Cereal Whole Grains Marshmallows Family Size 526 g</td><td>5.47</td><td>8.99</td><td>package</td><td>526 G</td><td>$1.04 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Cheerios Cereal Multi Grain Family Size 585 g</td><td>5.47</td><td>8.99</td><td>package</td><td>585 G</td><td>$0.94 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Cheerios Cereal Honey Nut Whole Grains Family Size 725 g</td><td>5.47</td><td>8.99</td><td>package</td><td>725 G</td><td>$0.75 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Old El Paso Taco Dinner Kit Hard &amp; Soft 340 g</td><td>4.49</td><td>6.79</td><td>package</td><td>340 G</td><td>$1.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Old El Paso Dinner Kit Hard Taco 250 g</td><td>4.49</td><td>6.99</td><td>package</td><td>250 G</td><td>$1.80 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Old El Paso Dinner Kit Soft Taco 400 g</td><td>4.49</td><td>6.99</td><td>package</td><td>400 G</td><td>$1.12 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Old El Paso Taco Dinner Kit Stand &#x27;n Stuff 250 g</td><td>4.49</td><td>6.99</td><td>package</td><td>10 x 25 G</td><td>$1.80 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Chocolate Chips Semi Sweet 270 g</td><td>4.99</td><td>5.99</td><td>package</td><td>270 G</td><td>$1.85 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Barnums Animal Crackers 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Quaker Harvest Crunch Low Sugar Granola Cereal Oats &amp; Almond 460 g</td><td>3.99</td><td>7.29</td><td>package</td><td>460 G</td><td>$0.87 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Graham Crumbs 400 g</td><td>3.99</td><td>5.29</td><td>package</td><td>400 G</td><td>$1.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Petite Cut Stewed Tomatoes Spicy Red Pepper 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Rotel Tomatoes Diced With Chilies Mild 284 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Quaker Life Whole Grain Cereal Original 450 g</td><td>3.99</td><td>6.29</td><td>package</td><td>450 G</td><td>$0.89 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Cap&#x27;N Crunch Cereal 350 g</td><td>3.99</td><td>6.29</td><td>package</td><td>350 G</td><td>$1.14 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Baking Chocolate Semi Sweet 225 g</td><td>5.49</td><td>7.29</td><td>package</td><td>225 G</td><td>$3.24 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Dare Ultimate Peanut-Free Cookies Lemon Crème 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Quaker Harvest Crunch Granola Cereal Original 475 g</td><td>3.99</td><td>7.29</td><td>package</td><td>475 G</td><td>$0.84 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Old Fashioned Large Flake Oats 1 kg</td><td>3.99</td><td>6.79</td><td>package</td><td>1000 G</td><td>$0.40 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal Maple Brown Sugar 344 g</td><td>3.99</td><td>5.29</td><td>package</td><td>344 G</td><td>$1.16 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Quaker Quick Oats 100% Whole Grain 1 kg</td><td>3.99</td><td>6.79</td><td>package</td><td>1000 G</td><td>$0.40 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Special K Cereal Red Berries 450 g</td><td>5.47</td><td>8.29</td><td>package</td><td>450 G</td><td>$1.22 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Salsa Medium Restaurant Style 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Sauce Original 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg Cereal Corn Flakes 600 g</td><td>5.47</td><td>8.29</td><td>package</td><td>600 G</td><td>$0.91 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Milk Chocolate Chips 250 g</td><td>4.99</td><td>5.99</td><td>package</td><td>250 G</td><td>$2.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Catelli Protein+ White Pasta Added Protein Penne 340 g</td><td>3.49</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Nutella Hazelnut Spread With Cocoa 725 g</td><td>9.99</td><td>10.99</td><td>package</td><td>725 G</td><td>$1.38 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Pantry</td><td>Compliments Salsa Mild Chunky 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Harvest Crunch Granola Cereal Raisin Almond 510 g</td><td>3.99</td><td>7.29</td><td>package</td><td>510 G</td><td>$0.78 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Chocolate Chips Dark 225 g</td><td>4.99</td><td>5.99</td><td>package</td><td>225 G</td><td>$2.22 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Hidden Valley Gluten-Free Creamy Dressing &amp; Dip Light Ranch Original 473 ml</td><td>4.99</td><td>5.79</td><td>package</td><td>473 ML</td><td>$1.22 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Low Sugar Instant Oatmeal Maple &amp; Brown Sugar 8 Packets 232 g</td><td>3.99</td><td>5.29</td><td>package</td><td>280 G</td><td>$1.43 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Quaker Low Sugar Instant Oatmeal Apples &amp; Cinnamon 8 Packets 232 g</td><td>3.99</td><td>5.29</td><td>package</td><td>232 G</td><td>$1.72 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Cereal Rice Krispies 560 g</td><td>5.47</td><td>8.29</td><td>package</td><td>560 G</td><td>$0.98 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Salsa Medium Chunky 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Hidden Valley Fat-Free Dressing Ranch Original 473 ml</td><td>4.99</td><td>5.79</td><td>package</td><td>473 ML</td><td>$1.22 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Catelli Protein+ White Pasta Added Protein Macaroni 340 g</td><td>3.49</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Chips Ahoy! Cookies Mini Rainbow Snak Pak 144 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Special K Cereal Original 485 g</td><td>5.47</td><td>8.29</td><td>package</td><td>485 G</td><td>$1.13 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Hidden Valley Gluten-Free Salad Dressing &amp; Topping Greek Tzatziki 473 ml</td><td>4.99</td><td>5.79</td><td>package</td><td>473 ML</td><td>$1.22 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Hidden Valley Gluten-Free Creamy Dressing &amp; Dip Ranch Original 473 ml</td><td>4.99</td><td>5.79</td><td>package</td><td>473 ML</td><td>$1.22 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Catelli Protein+ White Pasta Added Protein Rotini 340 g</td><td>3.49</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Catelli Protein+ White Pasta Added Protein Spaghetti 340 g</td><td>3.49</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Stewed Tomatoes Garlic &amp; Black Pepper 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Plum Tomatoes 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>BeeMaid Unpasturized Liquid Honey 500 g</td><td>7.99</td><td>12.29</td><td>package</td><td>500 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Cereal Corn Pops Family Pack 515 g</td><td>5.47</td><td>8.29</td><td>package</td><td>515 G</td><td>$1.06 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>BeeMaid Liquid Honey Beehive 500 g</td><td>7.99</td><td>12.29</td><td>package</td><td>500 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Oreo Mini Sandwich Cookies Golden 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Flourish Protein Pancake Mix Vanilla 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Barilla Gluten Free Pasta Spaghetti 340 g</td><td>3.49</td><td>3.99</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Tomatoes Diced No Salt Added 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Panache Wafer Rolls Chocolate Hazelnut 400 g</td><td>4.49</td><td>4.99</td><td>package</td><td>400 G</td><td>$1.12 per 100g</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Petite Cut Stewed Tomatoes Green Pepper Celery &amp; Onion 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Compliments Coconut Medium Desiccated Unsweetened 200 g</td><td>2.99</td><td>4.99</td><td>package</td><td>200 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Barilla Gluten Free Pasta Penne 340 g</td><td>3.49</td><td>3.99</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Shredded Sweetened Coconut 200 g</td><td>2.99</td><td>4.99</td><td>package</td><td>200 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Oreo Mini Sandwich Cookies Original 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Accents Tomatoes Italian Stewed 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Quaker Quick Cook Oats Steel Cut 709 g</td><td>3.99</td><td>6.79</td><td>package</td><td>709 G</td><td>$0.56 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Mitchell&#x27;s Soup Mix Country Chicken Chowder 225 g</td><td>10.99</td><td>11.49</td><td>package</td><td>225 G</td><td>$4.88 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Christie Mini Chips Ahoy! Peanut-Free Cookies Mini Snack Pack 6 x 26 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Special K Cereal Vanilla Almond 525 g</td><td>5.47</td><td>8.29</td><td>package</td><td>525 G</td><td>$1.04 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Oreo Mini Snak Pak Sandwich Cookies 6 x 25 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Compliments Coconut Sweetened Flaked 200 g</td><td>2.99</td><td>4.99</td><td>package</td><td>200 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Cereal All Bran Flakes 560 g</td><td>5.47</td><td>8.29</td><td>package</td><td>560 G</td><td>$0.98 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Grissol Melba Toast Sourdough 400 g</td><td>5.99</td><td>7.29</td><td>package</td><td>400 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Mutti Tomatoes Peeled 796 ml</td><td>5.49</td><td>6.99</td><td>package</td><td>796 ML</td><td>$0.69 per 100ml</td><td>Buy 2 and get 150 PTS</td></tr>
+<tr><td>Pantry</td><td>Beemaid Pasteurized Amber Liquid Honey 500 g</td><td>7.99</td><td>12.29</td><td>package</td><td>500 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments All-Purpose Flour Unbleached 2.5 kg</td><td>4.99</td><td>6.49</td><td>package</td><td>2500 G</td><td>$0.20 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Mitchell&#x27;s Soup Mix Turkey &amp; Cranberry 354 g</td><td>10.99</td><td>11.49</td><td>package</td><td>354 G</td><td>$3.10 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Condensed Milk Sweetened 300 ml</td><td>3.99</td><td>5.79</td><td>package</td><td>300 ML</td><td>$1.33 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Sauce Extra Hot 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Hidden Valley Gluten-Free Ranch Salad Dressing Spicy Original 473 ml</td><td>4.99</td><td>5.79</td><td>package</td><td>473 ML</td><td>$1.22 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Vector Cereal Meal Replacement With Crunchy Granola Clusters 550 g</td><td>5.47</td><td>8.29</td><td>package</td><td>550 G</td><td>$0.99 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Cereal Frosted Flakes 545 g</td><td>5.47</td><td>8.29</td><td>package</td><td>545 G</td><td>$1.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal 3 Flavours 314 g</td><td>3.99</td><td>5.29</td><td>package</td><td>314 G</td><td>$1.27 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Mini Wheats Cereal Brown Sugar 650 g</td><td>5.47</td><td>8.29</td><td>package</td><td>650 G</td><td>$0.84 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Froot Loops Cereal 480 g</td><td>5.47</td><td>8.29</td><td>package</td><td>480 G</td><td>$1.14 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Mini Wheat Cereal Original 650 g</td><td>5.47</td><td>8.29</td><td>package</td><td>650 G</td><td>$0.84 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Chocolate Chips &amp; Chunks Semi Sweet 250 g</td><td>4.99</td><td>5.99</td><td>package</td><td>250 G</td><td>$2.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Canned Tomatoes Crushed 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Chips Ahoy! Mini Chocolate Chip Cookies 200 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Flourish Protein Pancake &amp; Waffle Mix Buttermilk 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Tomatoes Diced Italian Spiced 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Aylmer Tomatoes Diced 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Sauce Hot Buffalo 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Cereal Krave Chocolate 500 g</td><td>5.47</td><td>8.29</td><td>package</td><td>500 G</td><td>$1.09 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Macaroni &amp; Cheese 225 g</td><td>1</td><td></td><td>each</td><td></td><td></td><td>Buy 4 for $4 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Compliments Chocolate Chips White 200 g</td><td>4.99</td><td>5.99</td><td>package</td><td>200 G</td><td>$2.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Macaroni &amp; Cheese Extra Creamy Cheddar 200 g</td><td>1</td><td></td><td>each</td><td></td><td></td><td>Buy 4 for $4 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Catelli Protein+ White Pasta Added Protein Rigatoni 340 g</td><td>3.49</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Whole Tomatoes 796 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Compliments Macaroni &amp; Cheese Deluxe White Cheddar 200 g</td><td>1</td><td></td><td>each</td><td></td><td></td><td>Buy 4 for $4 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Stoked Oats Gluten-Free Granola Mountain Maple 300 g</td><td>4.49</td><td>7.79</td><td>package</td><td>300 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker One Minute Oats 900 g</td><td>3.99</td><td>6.79</td><td>package</td><td>900 G</td><td>$0.44 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Redhot Wing Sauce Mild 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Aylmer Diced Tomatoes 540 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Quaker Harvest Crunch Granola Cereal Honey Nut 400 g</td><td>3.99</td><td>7.29</td><td>package</td><td>400 G</td><td>$1.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>BeeMaid Premium Honey White 500 g</td><td>7.99</td><td>12.29</td><td>package</td><td>500 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Catelli Protein+ White Pasta Added Protein Spaghettini 340 g</td><td>3.49</td><td>5.29</td><td>package</td><td>340 G</td><td>$1.03 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Two Scoops Cereal Raisin Bran 600 g</td><td>5.47</td><td>8.29</td><td>package</td><td>600 G</td><td>$0.91 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Stoked Oats Gluten-Free Granola Stone Age 300 g</td><td>4.49</td><td>7.79</td><td>package</td><td>300 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Kellogg&#x27;s Cereal All Bran Buds &amp; Psyllium 500 g</td><td>5.47</td><td>8.29</td><td>package</td><td>500 G</td><td>$1.09 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Rice Jasmine 900 g</td><td>4.49</td><td>5.49</td><td>package</td><td>900 G</td><td>$0.61 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Panache Maple Syrup 100% Pure 375 ml</td><td>9.99</td><td>11.29</td><td>package</td><td>375 ML</td><td>$2.66 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Johnvince Foods Unsalted Peanuts 800 g</td><td>7.99</td><td>10.29</td><td>package</td><td>800 G</td><td>$1.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Flour Whole Wheat 2.5 kg</td><td>4.99</td><td>6.49</td><td>package</td><td>2500 G</td><td>$0.20 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Rotel Tomatoes Diced With Green Chilies Original 284 ml</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Oatmeal Crisp Cereal Protein Vanilla 455 g</td><td>5.47</td><td>8.99</td><td>package</td><td>455 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Dare Simple Pleasures Cookies Digestive 310 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Compliments Baking Crumbs Chocolate 400 g</td><td>3.99</td><td>5.79</td><td>package</td><td>400 G</td><td>$1.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Baking Chocolate Dark 170 g</td><td>5.49</td><td>7.29</td><td>package</td><td>170 G</td><td>$4.29 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Vachon Cakes Swiss Rolls Original 12 Pack 290 g</td><td>3.99</td><td>6.49</td><td>package</td><td>290 G</td><td>$1.38 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Oatmeal Crisp Cereal Maple Nut High Fibre Family Size 619 g</td><td>5.47</td><td>8.99</td><td>package</td><td>619 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Old El Paso Dinner Kit Bold Taco With Nacho Cheese 269 g</td><td>4.49</td><td>6.49</td><td>package</td><td>269 G</td><td>$1.67 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Old El Paso Dinner Kit Burrito 510 g</td><td>4.49</td><td>6.99</td><td>package</td><td>510 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Reese&#x27;s Puffs Cereal Peanut Butter Chocolate Family Size 601 g</td><td>5.47</td><td>8.99</td><td>package</td><td>601 G</td><td>$0.91 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Nesquik Breakfast Cereal Chocolate Whole Grains Family Size 600 g</td><td>5.47</td><td>8.99</td><td>package</td><td>600 G</td><td>$0.91 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Baking Chocolate White 170 g</td><td>5.49</td><td>7.29</td><td>package</td><td>170 G</td><td>$4.29 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Buffalo Sauce Creamy 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s RedHot Wings Sauce General Tao 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Flourish Protein Pancake &amp; Waffle Mix Chocolate 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Thick Sauce Buffalo &#x27;N Ranch 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Thick Sauce Original 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Sauce Stingin Honey Garlic 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Flourish Plant Based Protein Pancake Mix Blueberry 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Dare Crème Filled Cookies Boston Cream Donut Inspired 290 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s RedHot Sauce Squeeze Hot Honey 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Sauce Garlic Parmesan Red Hot 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Flourish Protein Pancake &amp; Waffle Mix Birthday Cake 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s RedHot Sauce Thick Kickin&#x27; Chicken 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Compliments Sweetened Medium Dessicated Coconut 200 g</td><td>2.99</td><td>4.99</td><td>package</td><td>200 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s RedHot Sriracha Sauce 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Dare Simple Pleasures Cookies Spice Snaps 310 g</td><td>2.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $5 (multi-buy)</td></tr>
+<tr><td>Pantry</td><td>Compliments Salsa Hot Chunky 650 ml</td><td>4.99</td><td>6.29</td><td>package</td><td>650 ML</td><td>$0.77 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Vachon Billot Log Sponge Cakes Jelly 6 x 48 g</td><td>3.99</td><td>6.49</td><td>package</td><td>6 x 48 G</td><td>$1.39 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal Lightly Sweetened Maple &amp; Brown Sugar 304 g</td><td>3.99</td><td>5.29</td><td>package</td><td>304 G</td><td>$1.31 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Quaker Instant Oatmeal Lightly Sweetened Apples &amp; Cinnamon 232 g</td><td>3.99</td><td>5.29</td><td>package</td><td>232 G</td><td>$1.72 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Pantry</td><td>Hostess Craze Snack Cake Choco Layz Chocolate Caramel 240 g</td><td>3.99</td><td>6.49</td><td>package</td><td>240 G</td><td>$1.66 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Hostess Craze Snack Cake Xplosion S&#x27;mores 324 g</td><td>3.99</td><td>6.49</td><td>package</td><td>324 G</td><td>$1.23 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Flourish Gluten-Free Pancake Mix Original Protein 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Flourish Protein Pancake &amp; Waffle Mix Apple Cinnamon 430 g</td><td>9.99</td><td>11.99</td><td>package</td><td>430 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s Red Hot Wings Sauce Nashville Hot 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Frank&#x27;s RedHot Wings Sauce Mango Habanero 354 ml</td><td>4.49</td><td>6.29</td><td>package</td><td>354 ML</td><td>$1.27 per 100ml</td><td></td></tr>
+<tr><td>Pantry</td><td>Vachon Cake Lady Fingers 250 g</td><td>3.99</td><td></td><td>package</td><td>250 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>Panache Mousse Tiramisu And Triple Chocolate 300 g (frozen)</td><td>11.99</td><td>12.29</td><td>package</td><td>300 G</td><td>$4.00 per 100g</td><td></td></tr>
+<tr><td>Pantry</td><td>BeeMaid Raw Honey White Creamed 500 g</td><td>7.99</td><td>12.29</td><td>package</td><td>500 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Beef Burger 100% Angus 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Egg Rolls Vegetable 680 g</td><td>9.79</td><td>9.99</td><td>package</td><td>680 G</td><td>$1.44 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Sole Fillets Lightly Dusted Zesty Lemon &amp; Cracked Pepper 540 g</td><td>14.99</td><td>20.49</td><td>package</td><td>540 G</td><td>$3.79 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Vanilla 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Haddock Beer Battered 450 g</td><td>14.99</td><td>20.49</td><td>package</td><td>450 G</td><td>$4.55 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>High Liner Frozen Breaded Seasoned Fish Fillets Roasted Garlic &amp; Herb 500 g</td><td>8.49</td><td>11.79</td><td>package</td><td>500 G</td><td>$1.70 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>High Liner Family Favourites Frozen Fish Fillets Beer Battered 500 g</td><td>8.49</td><td>11.79</td><td>package</td><td>500 G</td><td>$1.70 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free No Sugar Added Ice Cream Chocolate 1 L</td><td>8.49</td><td>9.49</td><td>package</td><td>1000 ML</td><td>$0.85 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>SUMM! Crispy Spring Rolls Pork 6 Count 350 g</td><td>5.49</td><td>6.29</td><td>package</td><td>350 G</td><td>$1.57 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Premium Ice Cream Chocolate Salted Caramel &amp; Peanuts 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Swiss Chalet Frozen Chicken Pot Pie 650 g</td><td>7.99</td><td>12.29</td><td>package</td><td>650 G</td><td>$1.23 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Fillet Of Sole Panko Breaded 590 g</td><td>14.99</td><td>20.49</td><td>package</td><td>590 G</td><td>$3.47 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Baby Blend Frozen Vegetables 400 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free No Sugar Added Ice Cream Maple Walnut 1 L</td><td>8.49</td><td>9.49</td><td>package</td><td>1000 ML</td><td>$0.85 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Layers Triple Chocolate 414 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>414 ML</td><td>$1.19 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Mini Pizza Piccolissima Pepperoni 12 x 24 g</td><td>3.47</td><td>7.29</td><td>package</td><td>12 x 24 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Sausage Hot Italian 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Haddock Fillets Battered 450 g</td><td>14.99</td><td>20.49</td><td>package</td><td>450 G</td><td>$4.55 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Siwin Frozen Dumplings Korean Kim Chi Pork 500 g</td><td>3.99</td><td></td><td>package</td><td>500 G</td><td>$0.80 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>High Liner Frozen Minced Fish Fillets Tempura Battered 700 g</td><td>8.49</td><td>11.79</td><td>package</td><td>700 G</td><td>$1.21 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream Strawberry Shortcake 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Exträaz Salted Caramel Crunch Ice Cream Bars 216 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>216 ML</td><td>$2.29 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream Rich Chocolate 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Cod Fillets Tavern Battered 545 g</td><td>14.99</td><td>20.49</td><td>package</td><td>545 G</td><td>$3.76 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Healthy Choice Frozen Entrée Power Bowls Korean-Inspired Beef 269 g</td><td>5.99</td><td>8.29</td><td>package</td><td>269 G</td><td>$2.23 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Green Giant Cut Broccoli Valley Selections 500 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Frozen Green Beans 500 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free Ice Cream Coffee &amp; Chocolate 1 L</td><td>8.49</td><td>9.49</td><td>package</td><td>1000 ML</td><td>$0.85 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Meatballs Italian-Style 680 g</td><td>15.99</td><td>16.29</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Sole Fillets Lightly Dusted Herby Dill &amp; Citrus 540 g</td><td>14.99</td><td>20.49</td><td>package</td><td>540 G</td><td>$3.79 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Cheese Sticks Mozzarella 325 g</td><td>8.99</td><td>9.29</td><td>package</td><td>325 G</td><td>$2.77 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream Candy Cane 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Extraz Strawberry Cheesecake Ice Cream 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Pasta Cheddar 500 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Three Of A Kind Vanilla 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Silver Hills Sprouted Whole Grain Bread Omegamazing 600 g (frozen)</td><td>3.99</td><td>5.99</td><td>package</td><td>600 G</td><td>$0.67 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Pineapple Coconut 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream Unicorn Twirl 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Birthday Cake Ice Cream 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections California Mix 500 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Frozen Vegetables Seasoned Asian Blend 400 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Frozen Pizza Suprema Funghi-Ricotta 525 g</td><td>7.99</td><td>9.49</td><td>package</td><td>525 G</td><td>$1.52 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Green Giant Frozen Vegetable Mixes Valley Selections Bean &amp; Carrots 500 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream White Chocolate Raspberry Truffle 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Minis Vanilla Milk 4 x 55 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>4 x 55 ML</td><td>$2.25 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream Chocolate Peanut Butter 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Thin Crust Pizza Speciale 330 g</td><td>3.47</td><td>7.29</td><td>package</td><td>330 G</td><td>$1.05 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Vanilla Swiss Almond 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Extraaz Cookies Cream Crunch Ice Cream 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Salted Caramel 3 x 88 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 88 ML</td><td>$1.87 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Vanilla Bean 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Ice Cream Butter Pecan 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Siwin Frozen Dumplings Japanese Pork And Beef 500 g</td><td>3.99</td><td></td><td>package</td><td>500 G</td><td>$0.80 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Summer Frozen Vegetables Sweet Peas 750 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Backyard Barbeque 455 g</td><td>5.99</td><td>7.99</td><td>package</td><td>455 G</td><td>$1.32 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Caramel Almond Crunch 3 x 88 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 88 ML</td><td>$1.87 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Suprema Frozen Pizza Margherita 475 g</td><td>7.99</td><td>9.49</td><td>package</td><td>475 G</td><td>$1.68 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Extraaz Ice Cream Cookie Dough Dynamo 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Corn Peaches &amp; Cream 750 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Salted Caramel 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Mixed Vegetables 750 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Silver Hills Bakery Sprouted Power Squirrelly Bread 600 g (frozen)</td><td>3.99</td><td>5.99</td><td>package</td><td>600 G</td><td>$0.67 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Suprema Frozen Pizza Salame Romano 487 g</td><td>7.99</td><td>9.49</td><td>package</td><td>487 G</td><td>$1.64 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Chocolate Peanut Butter 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Siwin Frozen Dumplings Pork And Vegetable 500 g</td><td>3.99</td><td></td><td>package</td><td>500 G</td><td>$0.80 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Premium Ice Cream Black Cherry 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Vanilla Ice Cream 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Ice Cream Premium French Vanilla 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant French Style Green Beans Frozen Vegetables 750 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Minis Vanilla Almond 4 x 55 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>4 x 55 ML</td><td>$2.25 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Frozen Vegetables Stir Fry Medley 400 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Layers Ice Cream Mint Chocolate Chip 414 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>414 ML</td><td>$1.19 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Silver Hills Bakery 16 Grain Bread 615 g (frozen)</td><td>3.99</td><td>5.99</td><td>package</td><td>615 G</td><td>$0.65 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Pralines &amp; Cream 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapmans Ice Cream Premium Chocolate 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Premium Ice Cream Wolf Pass 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Chocolate Chocolate Chunk 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Frozen Whole Kernel Corn 750 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Exträaz Cookie Butter Crumble Ice Cream 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Chocolate 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Exträaz Ice Cream Key Lime Pie 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Strawberries and Cream 3 X 72 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 72 ML</td><td>$2.29 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Royal Asia Shrimp Wonton Soup 454 g</td><td>9.99</td><td>12.29</td><td>package</td><td>474 ML</td><td>$2.11 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Casa Di Mama Frozen Pizza Hawaiian 400 g</td><td>3.47</td><td>7.29</td><td>package</td><td>400 G</td><td>$0.87 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Casa Di Mama Frozen Pizza Pepperoni 395 g</td><td>3.47</td><td>7.29</td><td>package</td><td>395 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Vanilla &amp; Almond 3 x 88 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 88 ML</td><td>$1.87 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Mango Raspberry 216 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 72 ML</td><td>$2.29 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Sausage Rolls 576 g</td><td>11.99</td><td>12.29</td><td>package</td><td>576 G</td><td>$2.08 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Pizza Pollo 355 g</td><td>3.47</td><td>7.29</td><td>package</td><td>355 G</td><td>$0.98 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Naturally Simple Basa Fillets 400 g (frozen)</td><td>5.99</td><td>7.29</td><td>package</td><td>400 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Belmont Frozen Beef Burgers Home Style Sirloin 852 g</td><td>15.99</td><td></td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Chocolate Hazelnut 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Layer Berry Explosion 414 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>414 ML</td><td>$1.19 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Coffee 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Vanilla Milk 3 x 88 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 88 ML</td><td>$1.87 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Thin Crust Pizza 4 Cheese 340 g</td><td>3.47</td><td>7.29</td><td>package</td><td>340 G</td><td>$1.02 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Pizza Pepperoni Pesto 360 g</td><td>3.47</td><td>7.29</td><td>package</td><td>360 G</td><td>$0.96 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Vanilla Dark Chocolate 3 x 88 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 88 ML</td><td>$1.87 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Salisbury Beef Steak 455 g</td><td>5.99</td><td>7.99</td><td>package</td><td>455 G</td><td>$1.32 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Chicken Wings Hot Honey 800 g</td><td>17.99</td><td>18.49</td><td>package</td><td>800 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Boneless Chicken Bites BBQ Hickory 710 g</td><td>14.99</td><td>19.49</td><td>package</td><td>710 G</td><td>$2.11 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapmans Premium Ice Cream Tahitian Vanilla Bean 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Casa Di Mama Frozen Pizza Deluxe 410 g</td><td>3.47</td><td>7.29</td><td>package</td><td>410 G</td><td>$0.85 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free No Sugar Added Ice Cream Vanilla 1 L</td><td>8.49</td><td>9.49</td><td>package</td><td>1000 ML</td><td>$0.85 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Meatballs Angus Beef 680 g</td><td>15.99</td><td>16.29</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Thin Crust Pizza Vegetarian Funghi 365 g</td><td>3.47</td><td>7.29</td><td>package</td><td>365 G</td><td>$0.95 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Mango Raspberry 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free No Sugar Added Ice Cream Black Cherry 1 L</td><td>8.49</td><td>9.49</td><td>package</td><td>1000 ML</td><td>$0.85 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Thin Crust Pizza Vegetarian Spinach 390 g</td><td>3.47</td><td>7.29</td><td>package</td><td>390 G</td><td>$0.89 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Ice Cream Matcha Green Tea 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>SUMM! Gyoza Dumplings Pork &amp; Shiitake 10 Count 250 g</td><td>5.49</td><td>6.29</td><td>package</td><td>250 G</td><td>$2.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Pizza Pepperoni 320 g</td><td>3.47</td><td>7.29</td><td>package</td><td>320 G</td><td>$1.08 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Chicken Wings Honey Garlic 800 g</td><td>17.99</td><td>18.49</td><td>package</td><td>800 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Meatballs Prime Rib Beef 680 g</td><td>15.99</td><td>16.29</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Ice Cream Saucy Salty Caramel 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream French Vanilla 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Burgers Angus Beef &amp; Smoked Pork Belly 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Vanilla 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Swiss Chalet Frozen Pot Pie Chicken And Bacon 650 g</td><td>7.99</td><td>12.29</td><td>package</td><td>650 G</td><td>$1.23 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Casa Di Mama Frozen Pizza 3 Meat 395 g</td><td>3.47</td><td>7.29</td><td>package</td><td>395 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Strawberry 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Dulce De Leche 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Silver Hills Bakery Organic Multi Grain Bread 680 g (frozen)</td><td>3.99</td><td>6.49</td><td>package</td><td>680 G</td><td>$0.59 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Exträaz Ice Cream Bars Key Lime Pie 216 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 72 ML</td><td>$2.29 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Bars Chocolate Hazelnut 3 x 88 ml</td><td>4.94</td><td>6.29</td><td>package</td><td>3 x 88 ML</td><td>$1.87 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Grilled Beef Steakettes 425 g</td><td>5.99</td><td>7.99</td><td>package</td><td>425 G</td><td>$1.41 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Cauliflower Bites Hot Honey 469 g</td><td>6.99</td><td>7.29</td><td>package</td><td>469 G</td><td>$1.49 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Beef Burgers Stuffed Jalapeno &amp; Cheddar 680 g</td><td>15.99</td><td>18.99</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Premium Ice Cream Chocolate Peanut Butter Cup 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Haagen-Dazs Extraaz Ice Cream Caramel Cone Explosion 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Canadian Blueberries &amp; Cream 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Layers Salted Caramel Chocolate 414 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>414 ML</td><td>$1.19 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Pizza Vegetable 385 g</td><td>3.47</td><td>7.29</td><td>package</td><td>385 G</td><td>$0.90 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Mild Chicken Breaded Wings 800 g</td><td>17.99</td><td>18.49</td><td>package</td><td>800 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Chicken Wings Salt &amp; Pepper 800 g</td><td>17.99</td><td>18.49</td><td>package</td><td>800 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>SUMM! Crispy Spring Rolls Vegetable 6 Count 350 g</td><td>5.49</td><td>6.29</td><td>package</td><td>350 G</td><td>$1.57 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Halloom Bites 250 g</td><td>9.99</td><td>10.29</td><td>package</td><td>250 G</td><td>$4.00 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Beef Burgers Sirloin 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Silver Hills Organic Frozen Wheat Sprouted Bread Full Seed Ahead 680 g</td><td>3.99</td><td>6.49</td><td>package</td><td>660 G</td><td>$0.60 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>St-Hubert Frozen Pot Pie Chicken 800 g</td><td>7.99</td><td>15.29</td><td>package</td><td>800 G</td><td>$1.00 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Häagen-Dazs Ice Cream Chocolate Cream Brownie 450 ml</td><td>4.94</td><td>6.49</td><td>package</td><td>450 ML</td><td>$1.10 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Caramel Pecan Crunch 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapmans Strawberry Frozen Yogurt 2 l</td><td>8.49</td><td>9.29</td><td>package</td><td>2 L</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Frozen Italian Vegetables 400 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Japanese Mix 500 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Green Giant Frozen Sweetlet Peas 750 g</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Green Giant Valley Selections Garlic Pasta 500 g (frozen)</td><td>3.5</td><td></td><td>each</td><td></td><td></td><td>Buy 2 for $7 (multi-buy)</td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Turkey 455 g</td><td>5.99</td><td>7.99</td><td>package</td><td>455 G</td><td>$1.32 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Cold Crispy Chicken 6 Piece</td><td>13.99</td><td>14.99</td><td>package</td><td>1 EA</td><td>$14.99 per EA</td><td></td></tr>
+<tr><td>Frozen</td><td>Siwin Frozen Dumplings Vegetable 454 g</td><td>3.99</td><td>5.99</td><td>package</td><td>454 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Cardinal Roadhouse Burgers Prime Rib Beef 852 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>SUMM! Gyoza Dumplings Sesame Ginger Chicken 10 Count 250 g</td><td>5.49</td><td>6.29</td><td>package</td><td>250 G</td><td>$2.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>High Liner Frozen Fish &amp; Chips Family Favourites English Style 550 g</td><td>8.49</td><td>11.49</td><td>package</td><td>550 G</td><td>$1.54 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Giuseppe Pizzeria Garlic Bread Fingers Cheese &amp; Garlic 317 g (frozen)</td><td>3.47</td><td>5.49</td><td>package</td><td>317 G</td><td>$1.09 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Ultra Natural Raw 51/70 Ct PDTL Shrimp 300 g</td><td>9.99</td><td>13.29</td><td>package</td><td>300 G</td><td>$3.33 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Breakfast Sausage Original 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Ultra Natural Frozen Cooked Shrimp 51/70 Count 300 g</td><td>9.99</td><td>14.29</td><td>package</td><td>300 G</td><td>$3.33 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Boneless Chicken Bites Honey Garlic &amp; Thai 710 g</td><td>14.99</td><td>19.49</td><td>package</td><td>710 G</td><td>$2.11 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Sausage Mild Italian 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Cardinal Roadhouse Burgers Angus Beef 850 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Chicken Wings Buffalo Style 800 g</td><td>17.99</td><td>18.49</td><td>package</td><td>800 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Panache Frozen Spanakopita Spinach &amp; Feta 264 g</td><td>10.99</td><td>11.79</td><td>package</td><td>264 G</td><td>$4.16 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Fully Cooked Breaded Seasoned Chicken Breast Fillets Crispy Tenders with Smokey BBQ Sauce 710 g</td><td>14.99</td><td>19.49</td><td>package</td><td>710 G</td><td>$2.11 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Restaurant Style Crispy Sandwich Chicken 750 g</td><td>14.99</td><td>19.49</td><td>package</td><td>750 G</td><td>$2.00 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Breaded Pickle Spears 500 g</td><td>11.49</td><td>11.79</td><td>package</td><td>500 G</td><td>$2.30 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Pacific Fresh Rockfish Fillets</td><td>18.9</td><td>22.9</td><td>per kg</td><td></td><td>$1.89 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Giuseppe Frozen Stuffed Crust Pizza Pepperoni 685 g</td><td>7.99</td><td>9.49</td><td>package</td><td>685 G</td><td>$1.17 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Giuseppe Frozen Stuffed Crust Pizza 3 Meat 724 g</td><td>7.99</td><td>9.49</td><td>package</td><td>724 G</td><td>$1.10 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Premium Ice Cream Maple Walnut 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Belmont Prime Rib Beef Burgers Homestyle 852 g (frozen)</td><td>15.99</td><td></td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Burger Stuffed Cheddar Beef 680 g</td><td>15.99</td><td>18.99</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Fried Chicken 360 g</td><td>5.99</td><td>7.99</td><td>package</td><td>360 G</td><td>$1.66 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Healthy Choice Frozen Entrée Power Bowls Adobo Chicken 276 g</td><td>5.99</td><td>8.29</td><td>package</td><td>276 G</td><td>$2.17 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Hungry Man XL Bowls Frozen Dinner Buffalo Style Chicken Mac &#x27;N Cheese 397 g</td><td>5.99</td><td>6.99</td><td>package</td><td>397 G</td><td>$1.51 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>High Liner Frozen Crunchy Fish Cakes 700 g</td><td>8.49</td><td>11.49</td><td>package</td><td>700 G</td><td>$1.21 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free Sorbet Rainbow 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Beef Burgers Prime Rib 6 x 142 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Haddock Lightly Dusted Roasted Garlic &amp; Herb 500 g</td><td>14.99</td><td>20.49</td><td>package</td><td>500 G</td><td>$4.10 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Black Jack Cherry 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Montana&#x27;s Frozen Canadian Angus Beef Burger 906 g</td><td>19.99</td><td>25.49</td><td>package</td><td>906 G</td><td>$2.21 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Cheese Sticks Cheddar Bacon 325 g</td><td>8.99</td><td>9.29</td><td>package</td><td>325 G</td><td>$2.77 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Haddock Fillets Breaded Uncooked 450 g</td><td>14.99</td><td>20.49</td><td>package</td><td>450 G</td><td>$4.55 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapmans Premium Ice Cream Pistachio 2 L</td><td>8.49</td><td>9.49</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>High Liner Family Favourites Frozen Fillets English Style Battered 500 g</td><td>8.49</td><td>11.79</td><td>package</td><td>500 G</td><td>$1.70 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Siwin Frozen Potstickers Chicken And Vegetable 454 g</td><td>3.99</td><td></td><td>package</td><td>454 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Siwin Frozen Potstickers Pork And Vegetable 454 g</td><td>3.99</td><td></td><td>package</td><td>454 G</td><td>$0.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>SUMM! Crispy Spring Rolls Chicken 6 Count 350 g</td><td>5.49</td><td>6.29</td><td>package</td><td>350 G</td><td>$1.57 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Naturally Simple Frozen Tilapia Fillets 400 g</td><td>5.99</td><td>7.29</td><td>package</td><td>400 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Swedish Meatballs 680 g</td><td>15.99</td><td>16.29</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Cappuccino 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Royal Asia Shrimp Wontons With Sichuan Sauce 207 g</td><td>9.99</td><td>12.29</td><td>package</td><td>207 G</td><td>$4.83 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Royal Asia Prawn Dumplings 199 g</td><td>9.99</td><td>12.29</td><td>package</td><td>203 G</td><td>$4.92 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Sambazon Frozen Acai Bowl Superberry 173 g</td><td>5.99</td><td>7.49</td><td>package</td><td>173 EA</td><td>$0.03 per EA</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Popits Cream Cheese Stuffed Jalapeños 400 g</td><td>8.99</td><td>9.29</td><td>package</td><td>400 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Balance Frozen Meatball Lean Turkey 560 g</td><td>12.99</td><td>13.29</td><td>package</td><td>560 G</td><td>$2.32 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Country Fried Chicken Croquettes XL Bowls 397 g</td><td>5.99</td><td>6.99</td><td>package</td><td>397 G</td><td>$1.51 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Grilling Pork Sausages Spicy Maple Cayenne 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Ice Cream Butterscotch Wave 1.5 L</td><td>5.49</td><td>6.49</td><td>package</td><td>1500 ML</td><td>$0.37 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Dr. Oetker Ristorante Frozen Thin Crust Pizza Vegetarian Mozzarella 325 g</td><td>3.47</td><td>7.29</td><td>package</td><td>325 G</td><td>$1.07 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Hungry Man Frozen Entrée Beer Battered Chicken 411 g</td><td>5.99</td><td>7.99</td><td>package</td><td>411 G</td><td>$1.46 per 100g</td><td>Buy 3 and get 100 PTS</td></tr>
+<tr><td>Frozen</td><td>Sambazon Frozen Acai Bowl Berry Bliss 173 g</td><td>5.99</td><td>7.49</td><td>package</td><td>173 G</td><td>$3.46 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>St-Hubert Frozen Tourtiere Meat Pie 800 g</td><td>7.99</td><td>15.29</td><td>package</td><td>800 G</td><td>$1.00 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Beef Burgers Stuffed Cheddar &amp; Bacon 680 g</td><td>15.99</td><td>18.99</td><td>package</td><td>680 G</td><td>$2.35 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Frozen Yogurt Cookies &amp; Cream 2 L</td><td>8.49</td><td>9.29</td><td>package</td><td>2000 ML</td><td>$0.42 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>High Liner Frozen Pub Classics Haddock In Batter 350 g</td><td>8.49</td><td>10.79</td><td>package</td><td>350 G</td><td>$2.43 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Chapman&#x27;s Lactose-Free Ice Cream Salty Caramel &amp; Peanuts 1 L</td><td>8.49</td><td>9.49</td><td>package</td><td>1000 ML</td><td>$0.85 per 100ml</td><td></td></tr>
+<tr><td>Frozen</td><td>Eight Treasures Frozen Shrimp Raw Head On 40-50 Count 400 g</td><td>6.88</td><td>7.99</td><td>package</td><td>400 G</td><td>$1.72 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Sausage Sliders Bratwurst 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Swiss Chalet Frozen Rotisserie Style Beef Pie 655 g</td><td>7.99</td><td>12.29</td><td>package</td><td>655 G</td><td>$1.22 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Sausage Sliders Black &amp; Roasted Garlic 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Egg Rolls Beef And Pork 680 g</td><td>9.29</td><td>9.49</td><td>package</td><td>680 G</td><td>$1.37 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Blooming Pearls Onion 500 g</td><td>9.99</td><td>10.29</td><td>package</td><td>500 G</td><td>$2.00 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Cardinal Roadhouse Burgers Sirloin Beef 852 g</td><td>15.99</td><td>18.79</td><td>package</td><td>852 G</td><td>$1.88 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Breakfast Sausage Smokey Maple 375 g</td><td>5.99</td><td>7.29</td><td>package</td><td>375 G</td><td>$1.60 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Naturally Simple Frozen Wild Pollock Fillets 400 g</td><td>5.99</td><td>7.29</td><td>package</td><td>400 G</td><td>$1.50 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Pork Sausage Honey Garlic 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Asian Appetizers Party Pack 691 g</td><td>19.79</td><td>20.49</td><td>package</td><td>691 G</td><td>$2.86 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>St-Hubert Frozen Chicken And Broccoli Gratin 715 g</td><td>7.99</td><td>15.29</td><td>package</td><td>715 G</td><td>$1.12 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>High Liner Frozen Signature Cuts Haddock Fish Sticks Crispy Breaded 350 g</td><td>8.49</td><td>10.79</td><td>package</td><td>350 G</td><td>$2.43 per 100g</td><td>Buy 2 and get 200 PTS</td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Chicken Wings Smoky BBQ 800 g</td><td>17.99</td><td>18.49</td><td>package</td><td>800 G</td><td>$2.25 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Chicken Wings Classic BBQ 754 g</td><td>14.99</td><td>20.49</td><td>package</td><td>754 G</td><td>$1.99 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Grilling Pork Sausages Smoky Chorizo 500 g</td><td>5.99</td><td>7.29</td><td>package</td><td>500 G</td><td>$1.20 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Compliments Frozen Wild Snow Crab Clusters Fully Cooked Newfoundland &amp; Labrador 454 g</td><td>24.99</td><td>35.99</td><td>package</td><td>454 G</td><td>$7.93 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Chicken Wings Sea Salt &amp; Pepper 754 g</td><td>14.99</td><td>19.49</td><td>package</td><td>754 G</td><td>$1.99 per 100g</td><td></td></tr>
+<tr><td>Frozen</td><td>Janes Frozen Fully Cooked Chicken Wings Buffalo 754 g</td><td>14.99</td><td>19.49</td><td>package</td><td>754 G</td><td>$1.99 per 100g</td><td></td></tr>
+</tbody>
+</table>
+</div>
+</main>
+</body>
+</html>
